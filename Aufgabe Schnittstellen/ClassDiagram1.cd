@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Aufgabe_Schnittstellen.DisplayCsvFile">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgCAAADAAAACAQAACAAAAAIAAAAAAAAAJAAA=</HashCode>
+      <FileName>DisplayCsvFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_Schnittstellen.DisplayXmlFile">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAACAAABAAAACAYAACgAgAAAAAAAAAAAAICAA=</HashCode>
+      <FileName>DisplayXmlFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_Schnittstellen.ConverterApp">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACCAAACgAABAAABCCQAACEAAAMgCAIAAAAAAQAIA=</HashCode>
+      <FileName>MainWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_Schnittstellen.Program">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_Schnittstellen.Properties.Resources">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_Schnittstellen.Properties.Settings" Collapsed="true">
+    <Position X="11.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
