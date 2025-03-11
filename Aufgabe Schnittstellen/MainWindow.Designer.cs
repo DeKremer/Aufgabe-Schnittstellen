@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tBAusgabe = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtVoice = new System.Windows.Forms.Button();
             this.bTAuswahl = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.btCsv = new System.Windows.Forms.Button();
@@ -81,16 +81,17 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Text Ausgabe";
             // 
-            // button2
+            // BtVoice
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(988, 118);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 43);
-            this.button2.TabIndex = 5;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtVoice.Image = ((System.Drawing.Image)(resources.GetObject("BtVoice.Image")));
+            this.BtVoice.Location = new System.Drawing.Point(988, 118);
+            this.BtVoice.Margin = new System.Windows.Forms.Padding(4);
+            this.BtVoice.Name = "BtVoice";
+            this.BtVoice.Size = new System.Drawing.Size(47, 43);
+            this.BtVoice.TabIndex = 5;
+            this.BtVoice.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtVoice.UseVisualStyleBackColor = true;
+            this.BtVoice.Click += new System.EventHandler(this.BtVoice_Click_1);
             // 
             // bTAuswahl
             // 
@@ -140,7 +141,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.bTXml);
             this.Controls.Add(this.btCsv);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BtVoice);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tBAusgabe);
             this.Controls.Add(this.label1);
@@ -163,7 +164,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tBAusgabe;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtVoice;
         private System.Windows.Forms.Button bTAuswahl;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.Button btCsv;

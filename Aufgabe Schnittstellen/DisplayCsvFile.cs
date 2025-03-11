@@ -19,7 +19,7 @@ namespace Aufgabe_Schnittstellen
         public DisplayCsvFile()
         {
             InitializeComponent();
-            openCSV.Click += new EventHandler(openCSV_Click);
+           
 
             
            

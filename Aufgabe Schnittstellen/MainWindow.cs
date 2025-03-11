@@ -52,14 +52,7 @@ namespace Aufgabe_Schnittstellen
             
         }
 
-        private void btVoice_Click(object sender, EventArgs e)
-        {
-            SpeechSynthesizer _synthesizer = new SpeechSynthesizer();
-
-            _synthesizer.SetOutputToDefaultAudioDevice();
-            _synthesizer.Speak(fileContent);
-
-        }
+       
 
         private void tBDateiName_TextChanged(object sender, EventArgs e)
         {
@@ -80,6 +73,14 @@ namespace Aufgabe_Schnittstellen
             displayXmlFile.Show();
 
             this.Hide();
+        }
+
+        private void BtVoice_Click_1(object sender, EventArgs e)
+        {
+            SpeechSynthesizer _synthesizer = new SpeechSynthesizer();
+
+            _synthesizer.SetOutputToDefaultAudioDevice();
+            _synthesizer.Speak(fileContent);
         }
     }
 }

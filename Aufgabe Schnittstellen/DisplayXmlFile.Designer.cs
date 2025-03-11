@@ -38,19 +38,23 @@
             // 
             // dGVXml
             // 
+            this.dGVXml.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dGVXml.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVXml.Location = new System.Drawing.Point(12, 64);
+            this.dGVXml.Location = new System.Drawing.Point(16, 79);
+            this.dGVXml.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dGVXml.Name = "dGVXml";
-            this.dGVXml.Size = new System.Drawing.Size(776, 374);
+            this.dGVXml.RowHeadersWidth = 51;
+            this.dGVXml.Size = new System.Drawing.Size(1035, 460);
             this.dGVXml.TabIndex = 0;
             this.dGVXml.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVXml_CellContentClick);
             // 
             // openXML
             // 
             this.openXML.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.openXML.Location = new System.Drawing.Point(12, 35);
+            this.openXML.Location = new System.Drawing.Point(16, 43);
+            this.openXML.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.openXML.Name = "openXML";
-            this.openXML.Size = new System.Drawing.Size(116, 23);
+            this.openXML.Size = new System.Drawing.Size(155, 28);
             this.openXML.TabIndex = 4;
             this.openXML.Text = "öffnen";
             this.openXML.UseVisualStyleBackColor = true;
@@ -59,9 +63,10 @@
             // TBxml
             // 
             this.TBxml.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBxml.Location = new System.Drawing.Point(134, 35);
+            this.TBxml.Location = new System.Drawing.Point(179, 43);
+            this.TBxml.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TBxml.Name = "TBxml";
-            this.TBxml.Size = new System.Drawing.Size(225, 26);
+            this.TBxml.Size = new System.Drawing.Size(299, 30);
             this.TBxml.TabIndex = 5;
             this.TBxml.Text = "Dateiname";
             this.TBxml.TextChanged += new System.EventHandler(this.TBxml_TextChanged);
@@ -70,9 +75,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Wide Latin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(222, 19);
+            this.label1.Size = new System.Drawing.Size(279, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "Xml Dateiname";
             // 
@@ -83,14 +89,20 @@
             // 
             // DisplayXmlFile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TBxml);
             this.Controls.Add(this.openXML);
             this.Controls.Add(this.dGVXml);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
             this.Name = "DisplayXmlFile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DisplayXmlFile";
             ((System.ComponentModel.ISupportInitialize)(this.dGVXml)).EndInit();
             this.ResumeLayout(false);

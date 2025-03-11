@@ -17,7 +17,6 @@ namespace Aufgabe_Schnittstellen
         public DisplayXmlFile()
         {
             InitializeComponent();
-            openXML.Click += new EventHandler(openXML_Click);
         }
 
         private void openXML_Click(object sender, EventArgs e)
